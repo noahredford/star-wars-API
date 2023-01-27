@@ -1,0 +1,72 @@
+* {
+    font-family: 'Kanit', sans-serif;
+    
+}
+
+.jumbotron {
+    background-color: black;
+}
+
+.jumbotron-heading {
+    background-color: black;
+    color: yellow;
+}
+
+.crawl-title {
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.roj-text {
+    font-size: larger;
+}
+
+#film-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+
+i {
+    font-size: smaller;
+    font-weight: none;
+    font-family: sans-serif;
+
+}.card-img-top {
+    height: 73vh;
+    width: 56vh;
+}
+
+#roj-date {
+    padding-top: 4.5vh;
+}
+
+#rts-date {
+    padding-top: 4.5vh;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+@media only screen and (max-width: 480px) {
+    .card-img-top {
+      width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .card-img-top {
+      width: 100%;
+    }
+  }
