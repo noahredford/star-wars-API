@@ -34,9 +34,11 @@ i {
     font-weight: none;
     font-family: sans-serif;
 
-}.card-img-top {
-    height: 73vh;
-    width: 56vh;
+}
+
+.card-img-top {
+    height: 70vh;
+    width: auto;
 }
 
 #roj-date {
@@ -61,12 +63,13 @@ i {
 
 @media only screen and (max-width: 480px) {
     .card-img-top {
-      width: 100%;
+      max-width: 100%;
     }
   }
 
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 100px) {
     .card-img-top {
-      width: 100%;
+      max-width: 100%;
     }
   }
+
